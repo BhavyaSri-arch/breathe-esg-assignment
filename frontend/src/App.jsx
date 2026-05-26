@@ -9,7 +9,7 @@ function App() {
   const fetchRecords = async () => {
 
     const res = await axios.get(
-      'http://127.0.0.1:8000/api/records/'
+      'https://breathe-esg-assignment-production.up.railway.app'
     )
 
     setRecords(res.data)
